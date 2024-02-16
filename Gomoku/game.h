@@ -5,12 +5,12 @@
 #include <time.h>
 
 
-#define ROW 3
+#define ROW 3//æƒ³ç©å‡ å­æ£‹æŠŠè¿™é‡Œæ”¹äº†å°±å¥½äº†
 #define COL 3
 
-void Board_Init(char board[ROW][COL]);//ÆåÅÌ³õÊ¼»¯
-void Board_Display(char board[ROW][COL], int row, int col);//ÆåÅÌÏÔÊ¾
-void Play_Move(char board[ROW][COL]);//Íæ¼ÒÏÂÆå
-void Bot_Play(char board[ROW][COL]);//µçÄÔÏÂÆå
-int Coord_Judge(char board[ROW][COL], int x, int y);//×ø±êÅĞ¶ÏÊÇ·ñ¿ÉĞĞ
-char Game_Judge(char board[ROW][COL]);//ÅĞ¶ÏÓÎÏ·ÊÇ·ñ¼ÌĞø
+void Board_Init(char board[ROW][COL]);//æ£‹ç›˜åˆå§‹åŒ–
+void Board_Display(char board[ROW][COL], int row, int col);//æ£‹ç›˜æ˜¾ç¤º
+void Play_Move(char board[ROW][COL]);//ç©å®¶ä¸‹æ£‹
+void Bot_Play(char board[ROW][COL]);//ç”µè„‘ä¸‹æ£‹
+int Coord_Judge(char board[ROW][COL], int x, int y);//åæ ‡åˆ¤æ–­æ˜¯å¦å¯è¡Œ
+char Game_Judge(char board[ROW][COL]);//åˆ¤æ–­æ¸¸æˆæ˜¯å¦ç»§ç»­
